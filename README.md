@@ -50,7 +50,7 @@ Operand : 4 bits
 
 ## Instructions
 
-All instructions in the given program are stored in a virtual memory, which is outside of the 16 memory cells. The program counter (CP) is used to point to the current instruction (0-15).
+All instructions in the given program are stored in a virtual memory, which is outside of the 16 memory cells. The program counter (CP) is used to point to the current instruction.
 
 Due to the fact that the program counter is limited to 4 bits, the program can only have 16 instructions.
 
