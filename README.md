@@ -36,7 +36,7 @@ CP is hidden yet changeable with a jump instruction.
   - R1 = R1 NAND R2
 - MOV A B 
   - A = B, [] is raw value (e.g. MOV [1] 2 -> X2 = 1)
-  - A, B can be R1, R2, 0-15, [0-15]
+  - A, B can be R1, R2, 0-F, [0-F]
 - JMP
   - if R1 == 0, CP = R2
 
